@@ -24,5 +24,5 @@ The Ultralytics Brain Tumor dataset raises important ethical considerations rela
 
 
 ## Exploratory Plots
-![Tumor Class Distribution](Tumor%Class%Distribution.png)
-![Bounding Box Distribution](Bounding%Box%Distribution.png)
+![Tumor Class Distribution](Tumor%20Class%20Distribution.png)
+![Bounding Box Distribution](Bounding%20Box%20Distribution.png)
