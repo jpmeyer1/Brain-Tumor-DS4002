@@ -13,7 +13,7 @@ The Ultralytics Brain Tumor dataset raises important ethical considerations rela
 ## Data Dictionary
 | Column          | Description                                                        | Potential Responses / Examples     |
 | --------------- | ------------------------------------------------------------------ | ---------------------------------- |
-| **image**       | JPG image of the brain                                             | ![BrainImage1](BrainImage1.png) ![BrainImage2](BrainImage2.png)|
+| **image**       | JPG image of the brain                                             | ![Brain1](Brain1.png) ![Brain2](Brain2.png)|
 | **image title** | Name of the brain image file, matched with labels of the same name | `"00054_145.jpg"`, `"62 (13).jpg"` |
 | **label title** | Name of the associated `.txt` label file                           | `"00054_145.txt"`, `"62 (13).txt"` |
 | **class**       | Classifier for the datapoint: **0 = negative**, **1 = positive**   | `0`, `1`                           |
