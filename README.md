@@ -5,6 +5,7 @@
 
 # Documentation
 
+'''
 ├── README.md
 
 
@@ -12,27 +13,16 @@
 
 
 ├── DATA/
-
 │ ├──     images/
-
 │         ├── train/
-
 │         └── val/
-
 │ ├──     labels/
-
 │         ├── train/
-
 │         └── val/
-
 │ ├──     Metadata.md
-
 │ ├──     Brain1.png
-
 │ ├──     Brain2.png
-
 │ ├──     Bounding Box Distribution.png
-
 │ ├──     Tumor Class Distribution.png
 
 
@@ -44,5 +34,7 @@
 ├── OUTPUT/
 
 │ ├──     
+
+'''
 
 # Reproduction
