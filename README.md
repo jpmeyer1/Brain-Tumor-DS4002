@@ -15,15 +15,15 @@
 
 │ ├──     images/
 
-|         ├── train/
+│         ├── train/
 
-|         └── val/
+│         └── val/
 
 │ ├──     labels/
 
-|         ├── train/
+│         ├── train/
 
-|         └── val/
+│         └── val/
 
 │ ├──     Metadata.md
 
