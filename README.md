@@ -11,14 +11,23 @@
 ├── LICENSE.md
 
 
+├── DATA/
+│ ├──     images/
+|         ├── train/
+|         └── val/
+│ ├──     labels/
+|         ├── train/
+|         └── val/
+│ ├──     Metadata.md
+│ ├──     Brain1.png
+│ ├──     Brain2.png
+│ ├──     Bounding Box Distribution.png
+│ ├──     Tumor Class Distribution.png
+
+
 ├── SCRIPTS/
 
 │ ├──   
-
-
-├── DATA/
-
-│ ├──     Metadata.md
 
 
 ├── OUTPUT/
