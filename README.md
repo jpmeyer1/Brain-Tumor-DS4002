@@ -4,9 +4,9 @@
 # Software and Platform
 This project was developed and tested using ____
 
-Primary software and libraries:
+**Primary software and libraries:**
 
-___
+- 
 
 To set up all dependencies, refer to requirements.txt or manually install these packages using pip:
 
