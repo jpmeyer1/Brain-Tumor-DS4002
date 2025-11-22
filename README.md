@@ -70,8 +70,20 @@ All dependencies are fully listed in requirements.txt and requirements_enhanced.
 │   └── inference/
 │       └── tumor_detector.py
 ├── OUTPUT/
-│   ├── 
-│   └── 
+│   ├── runs/detect/val
+│   ├── yolov11_brain_tumor_final/
+│   │   └── weights/
+│   ├── yolov11_enhanced_attention/
+│   │   └── weights/
+│   ├── class_distribution_analysis.png
+│   ├── dataset_eda_overview.png
+│   ├── eda_results.json
+│   ├── enhanced_brain_tumor_data.yaml
+│   ├── enhanced_results_summary.json
+│   ├── enhanced_yolov11_best.pt
+│   ├── preprocessing_pipeline.png
+│   ├── sample_images_with_annotations.png
+│   └── training_log.txt
 ```
 
 # Reproduction
