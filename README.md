@@ -28,19 +28,24 @@ To set up all dependencies, refer to requirements.txt or manually install these 
 │   ├── Bounding Box Distribution.png
 │   └── Tumor Class Distribution.png
 ├── SCRIPTS/
-│   ├── requirements.txt
-│   ├── requirements_enhanced.txt
-│   ├── dataset.yaml
-│   ├── data_preprocessing.py
-│   ├── yolo11n.pt
-│   ├── train_yolo.py
-│   ├── yolov11_brain_tumor_analysis.py
-│   ├── run_analysis.sh
-│   ├── yolov11_enhanced_brain_tumor.py
-│   ├── run_enhanced_analysis.sh
-│   ├── evaluate_model.py
-│   ├── create_enhanced_summary.py
-│   └── tumor_detector.py
+│   ├── setup/
+│   │   ├── requirements.txt
+│   │   └── requirements_enhanced.txt
+│   ├── data/
+│   │   ├── dataset.yaml
+│   │   └── data_preprocessing.py
+│   ├── baseline/
+│   │   ├── train_yolo.py
+│   │   ├── yolov11_brain_tumor_analysis.py
+│   │   └── run_analysis.sh
+│   ├── enhanced/
+│   │   ├── yolov11_enhanced_brain_tumor.py
+│   │   └── run_enhanced_analysis.sh
+│   ├── evaluation/
+│   │   ├── evaluate_model.py
+│   │   └── create_enhanced_summary.py
+│   └── inference/
+│       └── tumor_detector.py
 ├── OUTPUT/
 │   ├── 
 │   └── 
