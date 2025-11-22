@@ -5,23 +5,28 @@
 This project was developed and tested using Python 3.10+ on both Google Colab (Linux GPU environment) and a local Windows 11 machine with CUDA-enabled GPU support. The baseline and enhanced YOLOv11 models were trained using the Ultralytics framework, along with standard scientific and medical imaging libraries.
 
 **Primary software and libraries:**
+
 Core Software
 - Python 3.10+
 - PyTorch ≥ 2.0.0
 - Ultralytics YOLOv11 (ultralytics ≥ 8.0.0)
-- Google Colab (Linux GPU) or Windows 11 (CUDA-enabled)  
+- Google Colab (Linux GPU) or Windows 11 (CUDA-enabled)
+
 Essential Machine Learning & Computer Vision Libraries
 - torchvision ≥ 0.15.0
 - opencv-python ≥ 4.8.0
 - albumentations ≥ 1.3.0
 - scikit-learn ≥ 1.3.0
+
 Scientific Computing
 - numpy ≥ 1.24.0
 - scipy ≥ 1.10.0
 - pandas ≥ 2.0.0
+  
 Visualization
 - matplotlib ≥ 3.7.0
 - seaborn ≥ 0.12.0
+  
 Image & Data Utilities
 - Pillow ≥ 9.5.0
 - PyYAML ≥ 6.0
