@@ -9,7 +9,7 @@ Core Software
 - Python 3.10+
 - PyTorch ≥ 2.0.0
 - Ultralytics YOLOv11 (ultralytics ≥ 8.0.0)
-- Google Colab (Linux GPU) or Windows 11 (CUDA-enabled)
+- Google Colab (Linux GPU) or Windows 11 (CUDA-enabled)  
 Essential Machine Learning & Computer Vision Libraries
 - torchvision ≥ 0.15.0
 - opencv-python ≥ 4.8.0
