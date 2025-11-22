@@ -75,3 +75,49 @@ All dependencies are fully listed in requirements.txt and requirements_enhanced.
 ```
 
 # Reproduction
+
+To reproduce the results in this repository, follow the steps below. The project includes both a baseline YOLOv11 model and an enhanced YOLOv11 model incorporating attention mechanisms and advanced medical image preprocessing.
+
+1. **Clone this repository:**
+
+```
+git clone https://github.com/jpmeyer1/Brain-Tumor-DS4002.git
+cd Brain-Tumor-DS4002
+```
+
+2. **Set up the Python environment:**
+
+Two requirements files are provided:
+- requirements.txt — baseline model
+- requirements_enhanced.txt — enhanced attention-based model
+
+To install all dependencies (baseline and enhanced):
+
+```
+pip install -r SCRIPTS/setup/requirements.txt
+pip install -r SCRIPTS/setup/requirements_enhanced.txt
+```
+
+3. **Run all scripts in order:**
+
+All scripts are located in the SCRIPTS/ directory and organized by function.
+
+**A. Baseline YOLOv11 Model**
+
+1. Preprocess images: SCRIPTS/data/data_preprocessing.py
+2. Run the baseline training pipeline: SCRIPTS/baseline/run_analysis.sh
+3. Evaluate baseline model performance: SCRIPTS/evaluation/evaluate_model.py
+
+**B. Enhanced YOLOv11 Model**
+
+1. Run the enhanced model training pipeline: SCRIPTS/enhanced/run_enhanced_analysis.sh
+
+**C. Generate Summary Comparison**
+
+```
+python SCRIPTS/evaluation/create_enhanced_summary.py
+```
+
+4. **View results:**
+
+All generated results—including model weights, evaluation plots, confusion matrices, logs, and inference outputs—are automatically saved in the OUTPUT/ directory
